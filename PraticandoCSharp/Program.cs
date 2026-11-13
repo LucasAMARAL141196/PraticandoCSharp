@@ -1,6 +1,9 @@
-﻿int anoNascimento = 1997;
-int anoAtual = 2026;
-int idade = anoAtual - anoNascimento;
+﻿// EXERCÌCIO 8 - REGISTRO DE DOAÇÕES 
 
-// O exemplo da Alura usa 2025 (resultado 28). Como estamos em 2026, o resultado é 29.
-Console.WriteLine("Sua idade é: " + idade + " anos.");
+decimal valorRecebido = 500m;
+bool doacaoAnonima = true;
+char tipoDaConta = 'P'; 
+
+Console.WriteLine("Valor recebido: R$" + valorRecebido);
+Console.WriteLine("Doação anônima: " + doacaoAnonima);
+Console.WriteLine("Tipo de conta: " + tipoDaConta);
