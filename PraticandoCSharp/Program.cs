@@ -1,9 +1,6 @@
-﻿// EXERCÌCIO 8 - REGISTRO DE DOAÇÕES 
+﻿// EXERCÌCIO 9 - CONVERTENDO DISTÂNCIAS
 
-decimal valorRecebido = 500m;
-bool doacaoAnonima = true;
-char tipoDaConta = 'P'; 
+double valorMilhas = 10; // Valor de milhas.
+double valorQuilometros = valorMilhas * 1.60934; // Variável para armazenar o valor em quilômetros
 
-Console.WriteLine("Valor recebido: R$" + valorRecebido);
-Console.WriteLine("Doação anônima: " + doacaoAnonima);
-Console.WriteLine("Tipo de conta: " + tipoDaConta);
+Console.WriteLine(valorMilhas + " milhas equivalem a " + valorQuilometros + " quilômetros.");
