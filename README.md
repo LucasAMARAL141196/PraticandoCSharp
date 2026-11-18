@@ -40,3 +40,19 @@ Tipo de conta: P
 ```
 
 **O que aprendi:** `decimal` é o tipo indicado para dinheiro, e o `char` usa aspas simples.
+
+
+## Exercício 9: Convertendo distâncias
+
+Converte uma distância de milhas para quilômetros, usando multiplicação com `double`.
+
+```csharp
+double valorMilhas = 10;
+double valorQuilometros = valorMilhas * 1.60934;
+
+Console.WriteLine(valorMilhas + " milhas equivalem a " + valorQuilometros + " quilômetros.");
+```
+
+**Saída:** `10 milhas equivalem a 16,0934 quilômetros.`
+
+**O que aprendi:** cada valor deve existir em um lugar só, dentro de uma variável com nome que diz a verdade. Um número solto no código (como o `10` repetido na conta e no texto) é fácil de esquecer numa alteração.
